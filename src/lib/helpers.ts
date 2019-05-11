@@ -1,6 +1,6 @@
 class helpers {
-    public static testLog = (testParams: any) => {
-        console.log(testParams);
+    public static isFalsy = (value: any, strict?: any) => {
+        return strict ? (value === null || value === undefined) : !!value;
     }
 }
 

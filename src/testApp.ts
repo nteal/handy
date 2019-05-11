@@ -1,3 +1,3 @@
-import helpers from './lib/index';
+import handy from './lib/index';
 
-helpers.testLog('hello world');
+console.log(handy.isFalsy(null, 1));
