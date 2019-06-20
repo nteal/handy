@@ -6,6 +6,9 @@ A library for handy helpers.
   * If strict is falsy, returns true if value is falsy else returns false. 
   * If strict is truthy, returns true only if value strictly equals null or undefined, else returns false. 
 
+* ```containsKeys = (obj: any, ...keys string[]) => boolean```
+  * Searches through obj for . separated strings, returns true if all properties and sub properties found.
+
 ## todo:
 * update todo list
 * add more functions
